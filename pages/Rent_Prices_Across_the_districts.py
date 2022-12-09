@@ -148,6 +148,6 @@ with tab3:
             strokeDash='Neighbourhood',
             )
 
-        st.altair_chart(ml1.interactive(), use_container_width=True)
-
+        if neighbourhood :
+            st.altair_chart(ml1.interactive(), use_container_width=True)
 
