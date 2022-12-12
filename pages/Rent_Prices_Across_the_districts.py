@@ -25,7 +25,7 @@ if rent_metric == 'average rent (euro/month)':
 else:
     data = dataframe2 
 #to be asked by Chase
-st.header(f'Rent prices in selected districts based on {rent_metric} are shown in the below plots' )
+st.header(f'Rent prices based on {rent_metric} are shown in the below tabs' )
 
 tab1,tab2,tab3 = st.tabs(['Year Data', 'Trimester Data' , 'Districts and Neighbourhood Data'])
 
@@ -68,6 +68,9 @@ with tab1:
         
         st.subheader('Costliest and Cheapest Neighbourhoods over the years %s are shown below' % years)
         
+        random = st.slider("Neighbourhood Limit",5,len(neighbours_data['Neighbourhood']),10,1)
+        neighbours_data = neighbours_data[0:random]
+
         bar = alt.Chart(neighbours_data,title = "Districts Bar Graph - Costliest to Cheapest").mark_bar().encode(
             alt.X("neighbourhood_max_price:Q"),
             y=alt.Y('Neighbourhood',sort='-x')
@@ -82,6 +85,7 @@ with tab1:
         col2.write(cheapest_neighbourhood)
         st.write('Note : Costliest/Cheapest neighbourhood may or may be in the respective costliest/cheapest district')
 with tab2:
+    st.write('Note : Housing Prices are usually measured with trimester, which means each trimester = 4 months. ')
     trimester_list = [1,2,3]
     trimester = st.multiselect(
      'Select the trimesters',
@@ -147,7 +151,5 @@ with tab3:
             color='Neighbourhood',
             strokeDash='Neighbourhood',
             )
-
         if neighbourhood :
             st.altair_chart(ml1.interactive(), use_container_width=True)
-
