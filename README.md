@@ -17,11 +17,19 @@ To view the live app go to https://barcelonarentprices.streamlit.app/
 * Deployment
 
 ## Findings
+The average price of rental housing in Barcelona seems to follow the same trend when metric is considered "euro/m2" or "euro/month"
+
 <img width="733" alt="image" src="https://user-images.githubusercontent.com/43126640/206936371-3db22773-74b0-4934-b612-028405adb733.png">
 <img width="712" alt="Screenshot 2022-12-11 at 6 51 30 PM" src="https://user-images.githubusercontent.com/43126640/206936536-a5dbb402-1fa7-41da-aac6-6b01ecb140d8.png">
-<img width="741" alt="image" src="https://user-images.githubusercontent.com/43126640/206936579-f930ec7a-718b-45b5-9042-938623e7e777.png">
-<img width="755" alt="image" src="https://user-images.githubusercontent.com/43126640/206937506-120b0b62-d473-4737-be76-3b4116957bf2.png">
 
+This trend reached 13.4 euros per square metre in the first quarter of 2022, well above the Spanish average of 10.2 euros per square metre. On a monthly basis, average rent reached 920 where the spanish average lies under 870
+
+<img width="741" alt="image" src="https://user-images.githubusercontent.com/43126640/206936579-f930ec7a-718b-45b5-9042-938623e7e777.png">
+
+Costliest and Cheapest Districts were plotted.
+
+<img width="755" alt="image" src="https://user-images.githubusercontent.com/43126640/206937506-120b0b62-d473-4737-be76-3b4116957bf2.png">
+Costliest and Cheapest Neighbourhood were plotted.
 
 ## Data Sources
 The data used for our analysis was free and made publically availabe by CMS through the following links:
