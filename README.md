@@ -1,4 +1,4 @@
-# Rent Prices in Barcelona - 'Choose an affordable-safe neighbourhood at your preferred place'
+# Rent Prices in Barcelona - 'Choose an affordable neighbourhood at your preferred place'
 ## Author : Aravind Sai Chillara
 This Application is developed as a result of Chase Romano's Visual Analytics course in the Data Science and Business Analytics master's program at the University of North Carolina Charlotte, this app allows users to explore the rental prices in Barcelona region across their Districts and Neighborhood from 2014 to 2022.
 
