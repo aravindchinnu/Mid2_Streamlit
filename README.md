@@ -4,6 +4,10 @@ This Application is developed as a result of Chase Romano's Visual Analytics cou
 
 To view the live app go to https://barcelonarentprices.streamlit.app/
 ## Research Questions
+1. What is the trend of House Rent from 2014 to 2022 based on prices per month and prices per square meter?
+2. What are the costliest and cheapest Districts and Neighbourhoods?
+3. Trimester-wise performance of House Rent Prices?
+
 ## Steps and Approaches
 * Data Pre-Processing
 * Exploratory Data Analysis
@@ -14,6 +18,9 @@ To view the live app go to https://barcelonarentprices.streamlit.app/
 
 ## Findings
 <img width="733" alt="image" src="https://user-images.githubusercontent.com/43126640/206936371-3db22773-74b0-4934-b612-028405adb733.png">
+<img width="712" alt="Screenshot 2022-12-11 at 6 51 30 PM" src="https://user-images.githubusercontent.com/43126640/206936536-a5dbb402-1fa7-41da-aac6-6b01ecb140d8.png">
+<img width="741" alt="image" src="https://user-images.githubusercontent.com/43126640/206936579-f930ec7a-718b-45b5-9042-938623e7e777.png">
+<img width="755" alt="image" src="https://user-images.githubusercontent.com/43126640/206937506-120b0b62-d473-4737-be76-3b4116957bf2.png">
 
 
 ## Data Sources
